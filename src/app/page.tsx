@@ -11,6 +11,7 @@ export default function Home() {
               <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">경력</a>
               <a href="#portfolio" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">포트폴리오</a>
               <a href="#hobbies" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">취미</a>
+              <a href="#japanese-culture" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">일본 문화</a>
             </div>
           </nav>
         </div>
@@ -190,6 +191,100 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-300 text-sm">
                 다양한 원두와 추출 방법을 탐구하는 커피 애호가입니다.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Japanese Animation & Movies Section */}
+      <section id="japanese-culture" className="bg-white dark:bg-gray-900 py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          <h3 className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12">일본 영화 & 애니메이션</h3>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-lg text-gray-600 dark:text-gray-300 text-center mb-12 leading-relaxed">
+              개발 업무 외에는 일본 영화와 애니메이션을 감상하는 것을 가장 큰 취미로 삼고 있습니다. 
+              스토리텔링과 시각적 아름다움에 감동받으며, 때로는 영감을 얻기도 합니다.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h4 className="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                  <span className="text-2xl mr-3">🎬</span>
+                  좋아하는 영화 감독
+                </h4>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">하야오 미야자키</span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">Studio Ghibli</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">마코토 시카이</span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">CoMix Wave Films</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">신카이 마코토</span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">CoMix Wave Films</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">아키라 쿠로사와</span>
+                    <span className="text-sm text-gray-500 dark:text-gray-400">클래식 영화</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
+                <h4 className="text-xl font-semibold text-gray-800 dark:text-white mb-4 flex items-center">
+                  <span className="text-2xl mr-3">🌟</span>
+                  최근 감상한 작품들
+                </h4>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">너의 이름은</span>
+                    <span className="text-sm text-blue-600 dark:text-blue-400">★★★★★</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">날씨의 아이</span>
+                    <span className="text-sm text-blue-600 dark:text-blue-400">★★★★☆</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">스즈메의 문단속</span>
+                    <span className="text-sm text-blue-600 dark:text-blue-400">★★★★★</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-700 dark:text-gray-300">천공의 성 라퓨타</span>
+                    <span className="text-sm text-blue-600 dark:text-blue-400">★★★★★</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 rounded-lg p-8">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white mb-4 text-center">
+                왜 일본 영화/애니메이션을 좋아하나요?
+              </h4>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="text-3xl mb-2">🎨</div>
+                  <h5 className="font-semibold text-gray-800 dark:text-white mb-2">시각적 아름다움</h5>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    세밀한 작화와 아름다운 색감이 눈을 즐겁게 합니다
+                  </p>
+                </div>
+                <div>
+                  <div className="text-3xl mb-2">💭</div>
+                  <h5 className="font-semibold text-gray-800 dark:text-white mb-2">깊이 있는 스토리</h5>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    단순한 재미를 넘어서는 철학적 메시지가 인상적입니다
+                  </p>
+                </div>
+                <div>
+                  <div className="text-3xl mb-2">🎵</div>
+                  <h5 className="font-semibold text-gray-800 dark:text-white mb-2">감성적인 음악</h5>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                    영상과 완벽하게 어우러지는 사운드트랙에 감동받습니다
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
